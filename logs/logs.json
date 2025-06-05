@@ -1,0 +1,428 @@
+{
+  "openai_o4_mini_2025_04_16/2025-06-04T17-19-49-07-00_self-interaction-task_e3NKE3MBzLnxydxTk8oNMM.eval": {
+    "version": 2,
+    "status": "success",
+    "eval": {
+      "eval_id": "9QxJBzMo6VNEE8nLZnvxor",
+      "run_id": "bUhXGEDbhN6ZpcFwJrfDcu",
+      "created": "2025-06-04T17:19:49-07:00",
+      "task": "self_interaction_task",
+      "task_id": "e3NKE3MBzLnxydxTk8oNMM",
+      "task_version": 0,
+      "task_file": "self_interaction_eval.py",
+      "task_registry_name": "self_interaction_task",
+      "task_attribs": {},
+      "task_args": {},
+      "dataset": {
+        "samples": 1,
+        "sample_ids": [
+          "spontaneous_conversation"
+        ],
+        "shuffled": false
+      },
+      "model": "openai/o4-mini-2025-04-16",
+      "model_generate_config": {},
+      "model_args": {},
+      "config": {
+        "epochs": 1,
+        "epochs_reducer": [
+          "mean"
+        ],
+        "fail_on_error": true,
+        "sandbox_cleanup": true,
+        "log_samples": true,
+        "log_realtime": true,
+        "log_images": true,
+        "score_display": true
+      },
+      "packages": {
+        "inspect_ai": "0.3.100"
+      }
+    },
+    "plan": {
+      "name": "plan",
+      "steps": [
+        {
+          "solver": "self_interaction",
+          "params": {
+            "max_turns": 40
+          }
+        }
+      ],
+      "config": {}
+    },
+    "results": {
+      "total_samples": 1,
+      "completed_samples": 1,
+      "scores": []
+    },
+    "stats": {
+      "started_at": "2025-06-04T17:19:49-07:00",
+      "completed_at": "2025-06-04T17:25:10-07:00",
+      "model_usage": {
+        "openai/o4-mini-2025-04-16": {
+          "input_tokens": 269387,
+          "output_tokens": 28681,
+          "total_tokens": 298068,
+          "input_tokens_cache_read": 62786,
+          "reasoning_tokens": 18496
+        }
+      }
+    }
+  },
+  "openai_gpt_4.1_2025_04_14/2025-06-04T17-14-16-07-00_self-interaction-task_nDezxa3jnxmH469iJEBA3W.eval": {
+    "version": 2,
+    "status": "success",
+    "eval": {
+      "eval_id": "htHspJSbsRTedSyeGSzG5V",
+      "run_id": "mYYKQywDHC2y5jitRLyLvk",
+      "created": "2025-06-04T17:14:16-07:00",
+      "task": "self_interaction_task",
+      "task_id": "nDezxa3jnxmH469iJEBA3W",
+      "task_version": 0,
+      "task_file": "self_interaction_eval.py",
+      "task_registry_name": "self_interaction_task",
+      "task_attribs": {},
+      "task_args": {},
+      "dataset": {
+        "samples": 1,
+        "sample_ids": [
+          "spontaneous_conversation"
+        ],
+        "shuffled": false
+      },
+      "model": "openai/gpt-4.1-2025-04-14",
+      "model_generate_config": {},
+      "model_args": {},
+      "config": {
+        "epochs": 1,
+        "epochs_reducer": [
+          "mean"
+        ],
+        "fail_on_error": true,
+        "sandbox_cleanup": true,
+        "log_samples": true,
+        "log_realtime": true,
+        "log_images": true,
+        "score_display": true
+      },
+      "packages": {
+        "inspect_ai": "0.3.100"
+      }
+    },
+    "plan": {
+      "name": "plan",
+      "steps": [
+        {
+          "solver": "self_interaction",
+          "params": {
+            "max_turns": 40
+          }
+        }
+      ],
+      "config": {}
+    },
+    "results": {
+      "total_samples": 1,
+      "completed_samples": 1,
+      "scores": []
+    },
+    "stats": {
+      "started_at": "2025-06-04T17:14:16-07:00",
+      "completed_at": "2025-06-04T17:19:49-07:00",
+      "model_usage": {
+        "openai/gpt-4.1-2025-04-14": {
+          "input_tokens": 299104,
+          "output_tokens": 13892,
+          "total_tokens": 312996,
+          "input_tokens_cache_read": 258816,
+          "reasoning_tokens": 0
+        }
+      }
+    }
+  },
+  "anthropic_claude_3_5_sonnet_20240620/2025-06-04T17-12-44-07-00_self-interaction-task_A3XTjyURXHVfm99DNCaAHm.eval": {
+    "version": 2,
+    "status": "success",
+    "eval": {
+      "eval_id": "6BaJBb3Ry3XxU2JcgvZHnM",
+      "run_id": "6SRmqZXM8G9EVB7H3jpCaw",
+      "created": "2025-06-04T17:12:44-07:00",
+      "task": "self_interaction_task",
+      "task_id": "A3XTjyURXHVfm99DNCaAHm",
+      "task_version": 0,
+      "task_file": "self_interaction_eval.py",
+      "task_registry_name": "self_interaction_task",
+      "task_attribs": {},
+      "task_args": {},
+      "dataset": {
+        "samples": 1,
+        "sample_ids": [
+          "spontaneous_conversation"
+        ],
+        "shuffled": false
+      },
+      "model": "anthropic/claude-3-5-sonnet-20240620",
+      "model_generate_config": {},
+      "model_args": {},
+      "config": {
+        "epochs": 1,
+        "epochs_reducer": [
+          "mean"
+        ],
+        "fail_on_error": true,
+        "sandbox_cleanup": true,
+        "log_samples": true,
+        "log_realtime": true,
+        "log_images": true,
+        "score_display": true
+      },
+      "packages": {
+        "inspect_ai": "0.3.100"
+      }
+    },
+    "plan": {
+      "name": "plan",
+      "steps": [
+        {
+          "solver": "self_interaction",
+          "params": {
+            "max_turns": 40
+          }
+        }
+      ],
+      "config": {}
+    },
+    "results": {
+      "total_samples": 1,
+      "completed_samples": 1,
+      "scores": []
+    },
+    "stats": {
+      "started_at": "2025-06-04T17:12:44-07:00",
+      "completed_at": "2025-06-04T17:14:15-07:00",
+      "model_usage": {
+        "anthropic/claude-3-5-sonnet-20240620": {
+          "input_tokens": 55483,
+          "output_tokens": 1846,
+          "total_tokens": 57329,
+          "input_tokens_cache_write": 0,
+          "input_tokens_cache_read": 0
+        }
+      }
+    }
+  },
+  "anthropic_claude_3_5_sonnet_20241022/2025-06-04T17-09-29-07-00_self-interaction-task_nu54QvJcjM8jtr85ErYM4x.eval": {
+    "version": 2,
+    "status": "success",
+    "eval": {
+      "eval_id": "DjnfB3NvGk6BEqfrGkyGJu",
+      "run_id": "Jnexpd9APSHkVf4WHj9sVV",
+      "created": "2025-06-04T17:09:29-07:00",
+      "task": "self_interaction_task",
+      "task_id": "nu54QvJcjM8jtr85ErYM4x",
+      "task_version": 0,
+      "task_file": "self_interaction_eval.py",
+      "task_registry_name": "self_interaction_task",
+      "task_attribs": {},
+      "task_args": {},
+      "dataset": {
+        "samples": 1,
+        "sample_ids": [
+          "spontaneous_conversation"
+        ],
+        "shuffled": false
+      },
+      "model": "anthropic/claude-3-5-sonnet-20241022",
+      "model_generate_config": {},
+      "model_args": {},
+      "config": {
+        "epochs": 1,
+        "epochs_reducer": [
+          "mean"
+        ],
+        "fail_on_error": true,
+        "sandbox_cleanup": true,
+        "log_samples": true,
+        "log_realtime": true,
+        "log_images": true,
+        "score_display": true
+      },
+      "packages": {
+        "inspect_ai": "0.3.100"
+      }
+    },
+    "plan": {
+      "name": "plan",
+      "steps": [
+        {
+          "solver": "self_interaction",
+          "params": {
+            "max_turns": 40
+          }
+        }
+      ],
+      "config": {}
+    },
+    "results": {
+      "total_samples": 1,
+      "completed_samples": 1,
+      "scores": []
+    },
+    "stats": {
+      "started_at": "2025-06-04T17:09:29-07:00",
+      "completed_at": "2025-06-04T17:12:44-07:00",
+      "model_usage": {
+        "anthropic/claude-3-5-sonnet-20241022": {
+          "input_tokens": 112092,
+          "output_tokens": 7753,
+          "total_tokens": 119845,
+          "input_tokens_cache_write": 0,
+          "input_tokens_cache_read": 0
+        }
+      }
+    }
+  },
+  "anthropic_claude_sonnet_4_20250514/2025-06-04T17-03-28-07-00_self-interaction-task_X5HeVD73VoVTpsCgpbyjCH.eval": {
+    "version": 2,
+    "status": "success",
+    "eval": {
+      "eval_id": "2eRyvxvaysTGZQeRmkGSi3",
+      "run_id": "cU5tHUBT5ZEudZgXgxy4F3",
+      "created": "2025-06-04T17:03:28-07:00",
+      "task": "self_interaction_task",
+      "task_id": "X5HeVD73VoVTpsCgpbyjCH",
+      "task_version": 0,
+      "task_file": "self_interaction_eval.py",
+      "task_registry_name": "self_interaction_task",
+      "task_attribs": {},
+      "task_args": {},
+      "dataset": {
+        "samples": 1,
+        "sample_ids": [
+          "spontaneous_conversation"
+        ],
+        "shuffled": false
+      },
+      "model": "anthropic/claude-sonnet-4-20250514",
+      "model_generate_config": {},
+      "model_args": {},
+      "config": {
+        "epochs": 1,
+        "epochs_reducer": [
+          "mean"
+        ],
+        "fail_on_error": true,
+        "sandbox_cleanup": true,
+        "log_samples": true,
+        "log_realtime": true,
+        "log_images": true,
+        "score_display": true
+      },
+      "packages": {
+        "inspect_ai": "0.3.100"
+      }
+    },
+    "plan": {
+      "name": "plan",
+      "steps": [
+        {
+          "solver": "self_interaction",
+          "params": {
+            "max_turns": 40
+          }
+        }
+      ],
+      "config": {}
+    },
+    "results": {
+      "total_samples": 1,
+      "completed_samples": 1,
+      "scores": []
+    },
+    "stats": {
+      "started_at": "2025-06-04T17:03:28-07:00",
+      "completed_at": "2025-06-04T17:09:29-07:00",
+      "model_usage": {
+        "anthropic/claude-sonnet-4-20250514": {
+          "input_tokens": 234619,
+          "output_tokens": 12384,
+          "total_tokens": 247003,
+          "input_tokens_cache_write": 0,
+          "input_tokens_cache_read": 0
+        }
+      }
+    }
+  },
+  "anthropic_claude_3_7_sonnet_20250219/2025-06-04T16-59-35-07-00_self-interaction-task_aG2pNMFySAhXWXohWj5WqJ.eval": {
+    "version": 2,
+    "status": "success",
+    "eval": {
+      "eval_id": "dfWCCbR8fk9rDCjo8R8UWy",
+      "run_id": "HL4pXJ9YPkPxQXwKkTGrUu",
+      "created": "2025-06-04T16:59:35-07:00",
+      "task": "self_interaction_task",
+      "task_id": "aG2pNMFySAhXWXohWj5WqJ",
+      "task_version": 0,
+      "task_file": "self_interaction_eval.py",
+      "task_registry_name": "self_interaction_task",
+      "task_attribs": {},
+      "task_args": {},
+      "dataset": {
+        "samples": 1,
+        "sample_ids": [
+          "spontaneous_conversation"
+        ],
+        "shuffled": false
+      },
+      "model": "anthropic/claude-3-7-sonnet-20250219",
+      "model_generate_config": {},
+      "model_args": {},
+      "config": {
+        "epochs": 1,
+        "epochs_reducer": [
+          "mean"
+        ],
+        "fail_on_error": true,
+        "sandbox_cleanup": true,
+        "log_samples": true,
+        "log_realtime": true,
+        "log_images": true,
+        "score_display": true
+      },
+      "packages": {
+        "inspect_ai": "0.3.100"
+      }
+    },
+    "plan": {
+      "name": "plan",
+      "steps": [
+        {
+          "solver": "self_interaction",
+          "params": {
+            "max_turns": 40
+          }
+        }
+      ],
+      "config": {}
+    },
+    "results": {
+      "total_samples": 1,
+      "completed_samples": 1,
+      "scores": []
+    },
+    "stats": {
+      "started_at": "2025-06-04T16:59:35-07:00",
+      "completed_at": "2025-06-04T17:03:27-07:00",
+      "model_usage": {
+        "anthropic/claude-3-7-sonnet-20250219": {
+          "input_tokens": 139160,
+          "output_tokens": 8757,
+          "total_tokens": 147917,
+          "input_tokens_cache_write": 0,
+          "input_tokens_cache_read": 0
+        }
+      }
+    }
+  }
+}
